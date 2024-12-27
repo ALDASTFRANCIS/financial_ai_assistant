@@ -1,0 +1,32 @@
+{"intents":[
+    {
+        "tag": "greetings",
+        "patterns": ["Hello!", "Hi there!", "Hey!", "Hi", "Greetings"],
+        "responses": ["Hello! How can I assist you today?", "Hi there! What can I do for you?", "Hey! How can I help?"],
+        "context_set": ""
+    },
+    {
+        "tag": "plot_chart",
+        "patterns":["I want you to plot a stock price!", "Please plot a chart", "Plot a chart"],
+        "responses": ["Plotting Chart"],
+        "context_set": ""
+    },
+    {
+        "tag": "add_chart",
+        "patterns": ["I want you to add a stock chart!", "Please add a chart", "Add a chart to the dashboard"],
+        "responses": ["Adding Chart to the dashboard"],
+        "context_set": ""
+    },
+    {
+        "tag": "remove_chart",
+        "patterns": ["I want you to remove a stock chart!", "Please remove a chart", "Remove a chart from the dashboard"],
+        "responses": ["Removing Chart from the dashboard"],
+        "context_set": ""
+    },
+    {
+        "tag": "show_chart",
+        "patterns": ["I want you to show the stock chart!", "Please show a chart", "Show the chart on the dashboard"],
+        "responses": ["Displaying the chart on the dashboard"],
+        "context_set": ""
+    }
+]}

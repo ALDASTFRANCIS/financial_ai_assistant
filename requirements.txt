@@ -1,0 +1,5 @@
+neuralintents
+matplotlib
+mplfinance
+pandas
+pandas-datareader
